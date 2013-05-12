@@ -28,7 +28,7 @@ exports.template = function(grunt, init, done) {
       name: 'dom',
       message: 'Is the DOM involved in ANY way?',
       default: 'Y/n',
-      warning: 'Yes: QUnit unit tests + JSHint "browser" globals. No: Nodeunit unit tests.'
+      warning: 'Yes: QUnit unit tests + coffeelint "browser" globals. No: Nodeunit unit tests.'
     },
     {
       name: 'min',
